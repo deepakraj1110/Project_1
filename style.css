@@ -79,6 +79,12 @@ body{
     margin: 20px 0;
 
 }
+.video__footage__container{
+    margin-top: 30px;
+}
+.video__footage__text{
+    margin-top: 15px;
+}
 .explore__menu__container{
     margin-top: 50px;
 }
@@ -89,21 +95,17 @@ body{
     color: #1d3557;
     margin: 20px 0;
 }
-
-
-
-
 .food__menu__card{
     width: 100%;
     background-color: white;
     border-radius: 8px;
     margin: 15px;
     
-    
 }
 .food__menu__card:hover{ 
     transform: scale(1.01);
-    transition: all ease 0.2s;}
+    transition: all ease 0.2s;
+}
 .food__image{
     width: 100%;
     border-radius: 8px 8px 0 0;
@@ -145,6 +147,23 @@ body{
     width: 100%;
     border-radius: 6px;
 
+}.restaurant__1__image:hover{
+    transform: scale(1.02);
+    transition: all ease 0.2s;
+}
+    .restaurant__2__image:hover{
+    transform: scale(1.02);
+    transition: all ease 0.2s;
+}
+
+
+.restaurant__3__image:hover{
+    transform: scale(1.02);
+    transition: all ease 0.2s;}
+
+.restaurant__4__image:hover{
+    transform: scale(1.02);
+    transition: all ease 0.2s;
 }
 .update__container{
     align-items: center;
@@ -171,13 +190,14 @@ body{
     position: relative;
     margin-top: 40px ;
     margin-bottom: 40px;
-    overflow: hidden;
+    overflow:hidden;
 }
 .qoute__image__container{
     position: absolute;
     width: 100%;
     z-index: -3;
     opacity: 50%;
+    
     
 }
 .qoute__image{
@@ -228,7 +248,11 @@ body{
         justify-content: space-between;
         gap: 10px;
     }
-    
+    .video__footage__container{
+        display:flex;
+        gap: 15px;
+        text-align: center;
+    }
     .explore__menu__container{
         position: relative;
     }
@@ -303,6 +327,12 @@ body{
 .hero__text{
     font-size: 50px;
     
+        }
+        .video__footage__container{
+            display: block;
+        }
+        .video__footage__text{
+            font-size: 25px;
         }
  .explore__menu__text{
      font-size: 50px;
